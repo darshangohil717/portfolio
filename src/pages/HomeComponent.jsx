@@ -106,11 +106,11 @@ const HomeComponent = () => {
                     About Us
                   </a>
                 </span>
-                <span className="text-white sm:text-sm md:text-lg lg:text-xl xl:text-2xl  mr-2">
+                {/* <span className="text-white sm:text-sm md:text-lg lg:text-xl xl:text-2xl  mr-2">
                   <a className="m-2" href={"#contact"}>
                     Contact Us
                   </a>
-                </span>
+                </span> */}
                 <span className="text-white" id='about'>
                   {scrollTopData < 194 ? (
                     <p className="sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
@@ -361,7 +361,7 @@ const HomeComponent = () => {
             </div>
           </div>
         </div>
-        <div className="border-b-2"></div>
+        {/* <div className="border-b-2"></div>
         <div className="flex w-full min-h-[500px] m-auto justify-center items-center" id='contact'>
           <div className="xl:w-[600px] ">
             <div className="pb-4">
@@ -403,7 +403,7 @@ const HomeComponent = () => {
               </div>
             </form>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
